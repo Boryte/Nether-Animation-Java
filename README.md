@@ -11,7 +11,7 @@ The program:
 I’m using PPM instead of PNG because:
 
 - It’s extremely easy to write (tiny header + raw RGB bytes)
-- No compression → faster to generate
+- No compression - > faster to generate
 - Perfect for synthetic frames and feeding into FFmpeg
 
 The only real downside is larger file size for the intermediate frames, but they’re temporary and easy to delete.
